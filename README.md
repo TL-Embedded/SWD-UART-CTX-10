@@ -29,16 +29,6 @@ On the target, the TC2050 or EC10 should have the following assignment.
 | 9    | RX (from target) |
 | 10   | Reset      |
 
-When the pins are arranged for the TC2050, the pinout is a bit more obvious:
-
-| Function        | Pin# | Pin# | Function   |
-| --------        | ---- | ---- | --------   |
-| VCC_Target      | 1    | 2    | SWDIO      |
-| GND             | 3    | 4    | SWCLK      |
-| VCC_Aux         | 5    | 6    | SWO        |
-| TX (to target)  | 7    | 8    | Detect     |
-| RX (from target)| 9    | 10   | Reset      |
-
 ## Detect
 
 This pin is tied to ground on the adaptor - and can be used by the target to sense the presence of the adaptor.
